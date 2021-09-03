@@ -12,7 +12,9 @@ const data = [
 
 const Acomplishments = () => (
   <div>
-    Acomplishments
+    <Section>
+
+    </Section>
   </div>
 );
 
