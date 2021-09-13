@@ -1,10 +1,9 @@
 export const projects = [
   {
     title: 'Amazon Clone',
-    description: "Using React, Node.js, Express & Firebase. This is a Full Stack Application  built deployed with firebase. Where you can Sign-up, Log-in, add items to basket, pay and checkout. Payement gateway intigrated with Stripe API",
+    description: "Using React, Node.js, Express & Firebase. This is a Full Stack Application. Where you can Sign-up, Log-in, add items to basket, pay and checkout. Payement gateway intigrated with Stripe API, due to some Indian regulation laws I am still working on the payment gateway, and the deployment of this app.",
     image: 'images/amazon.png',
     tags: ['Firebase', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
     visit: 'https://github.com/GourabSanyal/amazon-clone-react',
     id: 0,
   },
@@ -27,8 +26,8 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'cart',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: 'Cart',
+    description: "Made with useReducer, useContext hook, and  hook, fetched data is rendered on the web app. You can increase and decrese the number of items on the cart and at the same time delete all the items in the cart",
     image: '/images/cart.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/GourabSanyal/chat-app-react',
@@ -37,7 +36,7 @@ export const projects = [
   },
   {
     title: 'Colour Picker',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "If you put a value of a certain colour, this app will return you values of different shades of colour of that colour. Built with useReducer and useContext hook from React.",
     image: '/images/5.png',
     tags: ['React', 'JavaScript'],
     source: 'https://friendly-varahamihira-319bc9.netlify.app/',

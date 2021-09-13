@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiBrackets, DiFirebase, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -48,6 +48,18 @@ const Technologies = () =>  (
             Experience with <br />
             JavaScript <br/>
             Python
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      {/* ui/ux */}
+      <ListItem>
+        <DiBrackets size='3rem'/>
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Material UI <br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
