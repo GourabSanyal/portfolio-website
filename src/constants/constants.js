@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     title: 'Cart',
-    description: "Made with useReducer, useContext hook, and  hook, fetched data is rendered on the web app. You can increase and decrese the number of items on the cart and at the same time delete all the items in the cart",
+    description: "Made with useReducer, useContext. Fetched data is rendered on the web app. You can increase and decrese the number of items on the cart and at the same time delete all the items in the cart",
     image: '/images/cart.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/GourabSanyal/chat-app-react',
