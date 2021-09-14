@@ -8,10 +8,10 @@ const Technologies = () =>  (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I have worked in different Technologies in web developement.
-      From Backend to design
+    <SectionText>
     </SectionText>
     <List>
+      
       {/* front-end */}
       <ListItem>
         <DiReact size='3rem'/>

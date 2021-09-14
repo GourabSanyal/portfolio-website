@@ -19,7 +19,7 @@ export const LinkItem = styled.a`
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
-	transition: .3s ease;
+	transition: .4s ease;
 	position: relative;
 	left: 0;
 
