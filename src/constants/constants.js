@@ -35,8 +35,8 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'Colour Picker',
-    description: "If you put a value of a certain colour, this app will return you values of different shades of colour of that colour. Built with useReducer and useContext hook from React.",
+    title: 'Color Picker',
+    description: "If you put a value of a certain color, this app will return you values of different shades of colour of that colour. Built with useReducer and useContext hook from React.",
     image: '/images/5.png',
     tags: ['React', 'JavaScript'],
     source: 'https://friendly-varahamihira-319bc9.netlify.app/',
