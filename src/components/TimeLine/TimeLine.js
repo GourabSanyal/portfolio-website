@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I always loved coding from my school days, coming from a management background, taught myself to code 5 months back and been in love with web developement since then. I am self taught software developer, passionate about fullstack applications and hold a keen interest towards the world of technolgies. 
+      Coming from a management background, I taught myself to code 5 months back, and been in love with web development since then. I am passionate about full-stack applications, and hold a keen interest in the world of technologies.
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
