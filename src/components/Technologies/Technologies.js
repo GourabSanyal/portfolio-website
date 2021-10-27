@@ -20,7 +20,9 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             React.js <br/>
-            Next.js
+            Next.js <br/>
+            SAAS <br/>
+            Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -33,7 +35,8 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             Node.js <br/>
-            Firebase
+            Firebase <br/>
+            Mondo DB
             
           </ListParagraph>
         </ListContainer>
