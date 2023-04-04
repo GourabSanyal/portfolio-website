@@ -1,55 +1,70 @@
-import React from 'react';
-import { DiBrackets, DiFirebase, DiPython, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import {
+  DiBrackets,
+  DiFirebase,
+  DiPython,
+  DiReact,
+  DiZend,
+} from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <Section id='tech'>
+const Technologies = () => (
+  <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-    </SectionText>
+    <SectionText></SectionText>
     <List>
-      
       {/* front-end */}
       <ListItem>
-        <DiReact size='3rem'/>
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js <br/>
-            Next.js <br/>
-            SAAS <br/>
+            React.js <br />
+            React Native <br />
+            Next.js <br />
+            SAAS <br />
             Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
-       {/* back-end */}
+      {/* back-end */}
       <ListItem>
-        <DiFirebase size='3rem'/>
+        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js <br/>
-            Firebase <br/>
+            Node.js <br />
+            Firebase <br />
             Mondo DB
-            
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
-       {/* front-end */}
+      {/* front-end */}
       <ListItem>
-        <DiPython size='3rem'/>
+        <DiPython size="3rem" />
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript <br/>
+            JavaScript <br />
             Python
           </ListParagraph>
         </ListContainer>
@@ -57,12 +72,12 @@ const Technologies = () =>  (
 
       {/* ui/ux */}
       <ListItem>
-        <DiBrackets size='3rem'/>
+        <DiBrackets size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Material UI <br/>
+            Material UI <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
