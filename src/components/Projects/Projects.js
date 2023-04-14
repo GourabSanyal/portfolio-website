@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import styled from "styled-components";
 
 import {
   BlogCard,
@@ -18,39 +19,63 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
+import { Div2 } from "../Header/HeaderStyles";
 import { projects } from "../../constants/constants";
+import { NavLink } from "../Header/HeaderStyles";
+import { ButtonContainer, Button } from "./ProjectsStyles";
 
-const Projects = () => (
-  <Section nodepadding id="projects">
-    <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
-    <GridContainer>
-      {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image} />
-            <TitleContent>
-              <HeaderThree title={true}>{title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo>{description}</CardInfo>
-            <div>
-              <TitleContent>Stack</TitleContent>
-              <TagList>
-                {tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
-                ))}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        )
-      )}
-    </GridContainer>
-  </Section>
-);
+const Projects = () => {
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const handleCategoryClick = (category) => {
+    setSelectedCategory(category);
+  };
+
+  const filteredProjects = selectedCategory
+    ? projects.filter((project) => project.category === selectedCategory)
+    : projects;
+
+  const uniqueCategories = Array.from(new Set(projects.map((p) => p.category)));
+
+  return (
+    <Section nodepadding id="projects">
+      <SectionDivider />
+      <SectionTitle main>Projects</SectionTitle>
+      <Div2>
+        {uniqueCategories.map((category) => (
+          <NavLink key={category} onClick={() => handleCategoryClick(category)}>
+            {category}
+          </NavLink>
+        ))}
+      </Div2>
+      <GridContainer>
+        {filteredProjects.map(
+          ({ id, image, title, description, tags, source, visit }) => (
+            <BlogCard key={id}>
+              <Img src={image} />
+              <TitleContent>
+                <HeaderThree title={true}>{title}</HeaderThree>
+                <Hr />
+              </TitleContent>
+              <CardInfo>{description}</CardInfo>
+              <div>
+                <TitleContent>Stack</TitleContent>
+                <TagList>
+                  {tags.map((tag, i) => (
+                    <Tag key={i}>{tag}</Tag>
+                  ))}
+                </TagList>
+              </div>
+              <UtilityList>
+                <ExternalLinks href={visit}>Code</ExternalLinks>
+                <ExternalLinks href={source}>Source</ExternalLinks>
+              </UtilityList>
+            </BlogCard>
+          )
+        )}
+      </GridContainer>
+    </Section>
+  );
+};
 
 export default Projects;
