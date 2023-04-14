@@ -50,7 +50,7 @@ const Projects = () => {
       </Div2>
       <GridContainer>
         {filteredProjects.map(
-          ({ id, image, title, description, tags, source, visit }) => (
+          ({ id, image, title, description, tags, site, visit }) => (
             <BlogCard key={id}>
               <Img src={image} />
               <TitleContent>
@@ -68,7 +68,7 @@ const Projects = () => {
               </div>
               <UtilityList>
                 <ExternalLinks href={visit}>Code</ExternalLinks>
-                <ExternalLinks href={source}>Source</ExternalLinks>
+                <ExternalLinks href={site}>Site</ExternalLinks>
               </UtilityList>
             </BlogCard>
           )
