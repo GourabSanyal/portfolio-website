@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "Amazon Clone",
-    description:
-      "Using React, Node.js, Express & Firebase. This is a Full Stack Application. Where you can Sign-up, Log-in, add items to the basket, pay, and checkout. Payment gateway integrated with Stripe API, due to some Indian regulation laws I am still working on the payment gateway, and the deployment of this app",
-    image: "images/amazon.png",
-    tags: ["Firebase", "Express", "React", "Node"],
-    visit: "https://github.com/GourabSanyal/amazon-clone-react",
-    id: 0,
-    category: "React",
-  },
-  {
     title: "Birthday Reminder",
     description:
       "A dummy data is fetched and rendered at the front end, where each array of data contains an id, name, age, image. I have used a simple functionality with useState hook to render the raw data in a form of a list. As you clear the data and refresh the page, you will show those fetched data again",
