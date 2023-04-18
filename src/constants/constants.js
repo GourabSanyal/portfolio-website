@@ -48,10 +48,21 @@ export const projects = [
     description:
       "This web app provides up-to-date weather information for any location worldwide, helping users plan their day or make travel arrangements. With a simple and intuitive interface, users can quickly access detailed weather data, making it a valuable resource for staying informed about current and upcoming weather conditions.",
     image: "/images/weather.png",
-    tags: ["React", "JavaScript"],
+    tags: ["Node", "JavaScript"],
     site: "https://weatherapp-nodejs-ea7g.onrender.com/",
     visit: "https://github.com/GourabSanyal/weather-app-node",
     id: 6,
+    category: "Node",
+  },
+  {
+    title: "Chat Application",
+    description:
+      "Chat application, powered by Node.js and Socket.IO, enables real-time sharing of text messages and locations. With geolocation and seamless communication, users can easily connect and share their thoughts and whereabouts with friends, family, or colleagues. It's perfect for personal and business use.",
+    image: "/images/chat.png",
+    tags: ["Node", "JavaScript"],
+    site: "https://chat-app-node-nnu3.onrender.com/",
+    visit: "https://github.com/GourabSanyal/chat-app-node",
+    id: 7,
     category: "Node",
   },
 ];

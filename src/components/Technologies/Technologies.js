@@ -33,7 +33,6 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             React.js <br />
             React Native <br />
             Next.js <br />
@@ -49,10 +48,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Node.js <br />
             Firebase <br />
-            Mondo DB
+            Mongo DB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -63,7 +61,6 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
             JavaScript <br />
             Python
           </ListParagraph>
@@ -76,8 +73,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Material UI <br />
+            Familiar with <br />
+            Figma <br />
+            Adobe XD <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
