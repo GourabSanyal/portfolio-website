@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  DiBrackets,
-  DiFirebase,
-  DiPython,
-  DiReact,
-  DiZend,
-} from "react-icons/di";
+import { DiBrackets, DiFirebase, DiPython, DiReact } from "react-icons/di";
+
+import { AiOutlineDeploymentUnit } from "react-icons/ai";
 import {
   Section,
   SectionDivider,
@@ -76,6 +72,19 @@ const Technologies = () => (
             Familiar with <br />
             Figma <br />
             Adobe XD <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      {/* deployment */}
+      <ListItem>
+        <AiOutlineDeploymentUnit size="3rem" />
+        <ListContainer>
+          <ListTitle>Deployment</ListTitle>
+          <ListParagraph>
+            Familiar with <br />
+            Docker <br />
+            Netlify <br />
+            Render
           </ListParagraph>
         </ListContainer>
       </ListItem>
