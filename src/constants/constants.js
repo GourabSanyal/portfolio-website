@@ -66,7 +66,7 @@ export const projects = [
     category: "Node",
   },
   {
-    title: "Chat Application",
+    title: "User Authentication",
     description:
       "This is a cross-platform user authentication app with Login and Logout features, developed using the MERN stack. The app utilizes JWT tokens for authentication and employs salt-based password encryption. Overall, it is a straightforward and efficient solution for user authentication needs",
     image: "/images/auth.png",
