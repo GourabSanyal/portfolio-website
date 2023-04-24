@@ -65,6 +65,17 @@ export const projects = [
     id: 7,
     category: "Node",
   },
+  {
+    title: "Chat Application",
+    description:
+      "This is a cross-platform user authentication app with Login and Logout features, developed using the MERN stack. The app utilizes JWT tokens for authentication and employs salt-based password encryption. Overall, it is a straightforward and efficient solution for user authentication needs",
+    image: "/images/auth.png",
+    tags: ["React", "Node", "Express", "MongoDB"],
+    // site: "https://chat-app-node-nnu3.onrender.com/",
+    visit: "https://github.com/GourabSanyal/auth-app",
+    id: 8,
+    category: "Fullstack",
+  },
 ];
 
 export const TimeLineData = [

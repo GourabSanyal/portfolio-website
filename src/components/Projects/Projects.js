@@ -70,9 +70,11 @@ const Projects = () => {
                 <ExternalLinks href={visit} target="_blank">
                   Code
                 </ExternalLinks>
-                <ExternalLinks href={site} target="_blank">
-                  Site
-                </ExternalLinks>
+                {site ? (
+                  <ExternalLinks href={site} target="_blank">
+                    Site
+                  </ExternalLinks>
+                ) : null}
               </UtilityList>
             </BlogCard>
           )
