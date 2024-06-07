@@ -29,10 +29,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js <br />
+            Next Js <br />
             React Native <br />
-            Next.js <br />
-            SAAS <br />
+            React Js <br />
             Tailwind CSS
           </ListParagraph>
         </ListContainer>
@@ -44,9 +43,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Node.js <br />
+            Node Js <br />
             Firebase <br />
-            Mongo DB
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,6 +57,7 @@ const Technologies = () => (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             JavaScript <br />
+            TypeScript <br />
             Python
           </ListParagraph>
         </ListContainer>
