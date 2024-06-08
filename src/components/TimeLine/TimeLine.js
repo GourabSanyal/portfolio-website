@@ -67,11 +67,13 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Despite having a background in management, I was able to teach myself
-        coding during quarantine, and have since developed a strong passion for
-        web development. My interests lie particularly in full-stack
-        applications, and I am enthusiastic about staying up to date with the
-        latest technologies in the field.
+        Despite my background in management, I made a sharp turn into coding
+        during quarantine. Now, not only am I a whiz at web development, but
+        I’ve also delved deep into the fascinating realm of BTC. With over a
+        year of experience under my belt, building wallets for Bitcoin
+        enthusiasts and vaults with hardware wallet integration is my forte.
+        Always pushing boundaries in web development while keeping an eye on the
+        ever-evolving tech landscape in web3!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

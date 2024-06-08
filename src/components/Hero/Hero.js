@@ -14,10 +14,11 @@ const Hero = (props) => (
       <SectionTitle main center>
         Hey,
         <br />
-        I'm Gourab
-        <br />A web developer
+        I'm Gourab,
+        <br />a Web &
+        <br />App developer
       </SectionTitle>
-      <SectionText>Curious, Enthusiastic and I love to code :)</SectionText>
+      <SectionText>Techie by Passion, Self-Taught, and Meme Aficionado (っ＾▿＾)っ</SectionText>
       <Button onClick={() => (window.location = "#about")}>Learn More</Button>
     </LeftSection>
   </Section>
