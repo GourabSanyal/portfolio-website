@@ -1,0 +1,7 @@
+[build]
+  command = "yarn build"
+  publish = "out"
+
+[context.production.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
