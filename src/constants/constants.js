@@ -71,7 +71,7 @@ export const projects = [
       "A course selling application where mentors can setup their own admin panel, and launch their courses and user's can buy courses. Built using Turbo repo, MERN stack + Next Js",
     image: "/images/CourseX.png",
     tags: ["Next Js", "Node", "MongoDB", "Next Auth"],
-    site: "https://course-x-nine.vercel.app/",
+    site: "https://coursex-test-deploy.vercel.app/",
     visit: "https://github.com/GourabSanyal/CourseX",
     id: 8,
     category: "Fullstack",
